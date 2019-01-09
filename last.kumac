@@ -1,0 +1,52 @@
+*** Begin of history file: Mon Jan  7 15:15:19 2019
+glob E
+h/pl 10
+h/pl 10(250.:350.)
+cd
+fortran/file 21 241Am_Si.eps
+graphics/metafile 21 -113
+h/pl 10(250.:350.)
+fortran/close 21
+glob T
+fortran/file 22 241Am_C_Si.eps
+h/pl 10(250.:350.)
+fortran/close 22
+fortran/file 22 241Am_C_Si.eps
+graphics/metafile 22 -113
+h/pl 10(250.:350.)
+fortran/close 22
+glob E
+fortran/file 21 241Am_Si.eps
+graphics/metafile 21 -113
+hp 10(:500.)
+fortran/close 21
+glob T
+fortran/file 22 241Am_C_Si.eps
+graphics/metafile 22 -113
+hp 10(:500.)
+fortran/close 22
+opt logy
+hp 10(:500.)
+glob E
+fortran/file 21 241Am_Si.eps
+graphics/metafile 21 -113
+hp 10(:500.)
+fortran/close 21
+glob T
+fortran/file 22 241Am_C_Si.eps
+graphics/metafile 21 -113
+graphics/metafile 22 -113
+hp 10(:500.)
+fortran/close 22
+hp 10(:500.)
+h/fit 10(:500.)
+h/fit 10(100.:500.) g
+hp 10(100.:500.)
+h/fit 10(100.:500.) g
+h/ del *
+h/del *
+h/fit 10(100.:500.) g
+h/pl 10(100.:500.)
+opt liney
+opt del *
+*** End   of history file: Mon Jan  7 15:47:19 2019

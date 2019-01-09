@@ -1,0 +1,6 @@
+rdf/
+*~
+picture/
+hb/
+*.rdf
+*.hb
